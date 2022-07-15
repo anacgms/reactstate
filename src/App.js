@@ -1,23 +1,30 @@
-import React, { Component } from 'react';
-import "./App.css";
-import melancia from "./imagens/melancia.png"
+import React from 'react'
+
+function App() {
+    return(
+      <div>
+        <p>Oiee.</p>
+      </div>
+  )
+} 
+
+export default App;
 
 
-class App extends Component{
 
-  state = {
-        nome: "Ana Carolina",
+  //state = {
+        //nome: "Ana Carolina",
         //idade: 25,
         //comidaFavorita: "Bife com batata frita",
         //musicas: ["Oceano","smile", "correnteza"]
    
 
-  }
+//}
 
-  render(){
-    return(
+  //render(){
+    //return(
       //<section>
-        <h1>Oi, me chamo {this.state.nome}</h1>
+        //<h1>Oi, me chamo {this.state.nome}</h1>
         //<h2>Tenho {this.state.idade} anos!</h2>
         //<h3>Gosto muito de comer {this.state.comidaFavorita}</h3>
         //<ol>
@@ -28,11 +35,11 @@ class App extends Component{
         //<img src={melancia} alt="melancia"/> 
       //</section>
      
-    )
-  }
-}
+    //)
+ // }
+//}
 
-export default App;
+//export default App;
 
 
 
